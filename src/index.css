@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (max-width: 1024px) {
+    nav ul {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        flex-direction: column;
+        text-align: center;
+        background-color: black;
+        gap: 0;
+        transition: 1s;
+        transform: translateY(-100vh);
+    }
+
+    nav ul li {
+        padding: 20px;
+
+    }
+
+    nav .ul-btn {
+        visibility: visible;
+        opacity: 1;
+        display: block;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    nav .responsive_nav {
+        transform: none;
+
+    }
+
+    nav .ul-close-btn {
+        position: absolute;
+        top: 0.5rem;
+        right: 1.7rem;
+    }
+}

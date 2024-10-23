@@ -1,0 +1,155 @@
+
+/* Base Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Mobile Styles */
+@media (max-width: 640px) {
+    .first-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leftsection {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .rightsection img {
+        width: 80%; /* Adjust image width for mobile */
+    }
+
+    .about-content {
+        width: 90%;
+    }
+
+    .aboutskills-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-section, .right-section {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .skills-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects-img-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects-left, .projects-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .content-box {
+        width: 90%;
+    }
+
+    .contact-type {
+        width: 90%;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .first-section {
+        flex-direction: row;
+    }
+
+    .leftsection {
+        text-align: center;
+    }
+
+    .rightsection img {
+        width: 70%; /* Adjust image width for tablets */
+    }
+
+    .about-content {
+        width: 80%;
+    }
+
+    .aboutskills-section {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .left-section, .right-section {
+        width: 45%;
+    }
+
+    .skills-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .projects-img-section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .projects-left, .projects-right {
+        width: 45%;
+    }
+
+    .content-box {
+        width: 80%;
+    }
+
+    .contact-type {
+        width: 80%;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    .first-section {
+        flex-direction: row;
+    }
+
+    .leftsection {
+        text-align: left;
+    }
+
+    .rightsection img {
+        width: 60%; /* Adjust image width for desktops */
+    }
+
+
+    .aboutskills-section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .left-section, .right-section {
+        width: 45%;
+    }
+    
+
+    .projects-img-section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .projects-left, .projects-right {
+        width: 45%;
+    }
+
+    .content-box {
+        width: 50%;
+    }
+
+    .contact-type {
+        width: 50%;
+    }
+}
