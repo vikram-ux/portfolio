@@ -4,14 +4,12 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 
 function App() {
-
-
   return (
     <>
       <Navbar />
       <div id="home" className="main h-auto">
         <div className="first-section  h-screen w-screen flex justify-around items-center bg-gray-950 text-white bg-cover bg-center pt-28">
-          <div className="leftsection justify-center text-3xl">
+          <div className="leftsection justify-center text-3xl text-center">
             Hello, My name is {""}
             <span className="purple text-purple-400">Vikram</span>
             <div>and I am a pasionate Web developer</div>
@@ -27,7 +25,7 @@ function App() {
 
           <div className="rightsection">
             <img
-              src="/public/image/developer.png"
+              src="./public/image/developer.png"
               alt="developer-image"
               className="w-3/4"
             />
@@ -84,7 +82,7 @@ function App() {
             </div>
 
             <div className="right-section text-white w-2/5 mt-20">
-              <h1 className="text-3xl font-bold">My Skills</h1>
+              <h1 className="skills-heading text-3xl font-bold">My Skills</h1>
               <div className="skills-section mt-10 flex flex-wrap gap-5">
                 <div className="skills bg-white text-black border-1 rounded-md font-semibold w-20 text-center p-2">
                   HTML
@@ -125,6 +123,7 @@ function App() {
           id="projects"
           className="projects-content w-screen h-full bg-gray-950 p-10"
         >
+          <div className="projects-header">
           <h1 className="bg-gray-950 text-white text-center font-bold text-5xl">
             PROJECTS
           </h1>
@@ -135,13 +134,14 @@ function App() {
             Here you will find some of the personal and clients projects that I
             created with each project containing its own case study
           </p>
+          </div>
 
           <div className="projects-img-section bg-gray-950-400 w-full flex flex-wrap justify-between">
             <div className="projects-left text-white w-2/5 mt-20">
               <div className="left-image bg-gray-950 relative mt-10">
-                <img src="/public/image/laptop.png" alt="" />
+                <img src="./public/image/laptop.png" alt="" />
                 <img
-                  src="/public/image/portfolio.png"
+                  src="./public/image/portfolio.png"
                   alt=""
                   className="w-80 h-52 absolute top-4 left-20"
                 />
@@ -158,14 +158,14 @@ function App() {
               </p>
 
               <div className="button">
-                <a href="">
+                {/* <a href=""> */}
                   <button
                     id="#projects"
                     className="bg-black text-white text-xl p-1 pb-2 pl-8 pr-8 font-bold border-2 rounded-3xl mt-6 mb-24 shadow-2xl hover:bg-white hover:text-black duration-300 "
                   >
                     Case Study
                   </button>
-                </a>
+                {/* </a> */}
               </div>
             </div>
           </div>
@@ -175,9 +175,9 @@ function App() {
           <div className="projects-img-section bg-gray-950-400 w-full flex flex-wrap justify-between">
             <div className="projects-left text-white w-2/5 mt-20">
               <div className="left-image bg-gray-950 relative mt-10">
-                <img src="/public/image/laptop.png" alt="" />
+                <img src="./public/image/laptop.png" alt="" />
                 <img
-                  src="/public/image/portfolio.png"
+                  src="./public/image/portfolio.png"
                   alt=""
                   className="w-80 h-52 absolute top-4 left-20"
                 />
@@ -211,9 +211,9 @@ function App() {
           <div className="projects-img-section bg-gray-950-400 w-full flex flex-wrap justify-between">
             <div className="projects-left text-white w-2/5 mt-20">
               <div className="left-image bg-gray-950 relative mt-10">
-                <img src="/public/image/laptop.png" alt="" />
+                <img src="./public/image/laptop.png" alt="" />
                 <img
-                  src="/public/image/portfolio.png"
+                  src="./public/image/portfolio.png"
                   alt=""
                   className="w-80 h-52 absolute top-4 left-20"
                 />
@@ -246,7 +246,6 @@ function App() {
 
         {/* CONTACT  */}
         <Contact />
-
       </div>
       <Footer />
     </>

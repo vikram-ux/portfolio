@@ -39,3 +39,55 @@
         right: 1.7rem;
     }
 }
+
+
+/* box  */
+@media (max-width: 640px) {
+.content-box {
+    width: 100%;
+}
+
+.contact-heading{
+    padding-top: 70px;
+}
+
+.contacts .contacts-para{
+    width: 100%;
+
+
+}
+
+
+}
+
+
+/* footer  */
+
+@media (max-width: 640px) {
+.footer-section {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.footer-left{
+    
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+    text-align: start;
+}
+
+.footer-left .footer-heading{
+margin-bottom: -10px;
+}
+
+
+.social-section{
+    width: 90%;
+    margin-bottom: -30px;
+}
+
+
+}

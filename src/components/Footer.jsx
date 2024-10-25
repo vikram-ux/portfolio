@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-    <div className="footer w-screen h-96 bg-black text-white flex justify-around items-center">
+    <footer className="footer-section w-screen h-96 bg-black text-white flex justify-around items-center">
       <div className="footer-left w-1/2">
         <h1 className="footer-heading text-3xl">Vikram Singh</h1>
         <p className="footer-para mt-10 ">
@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
        
       </div>
-    </div>
+    </footer>
 
     <hr className="border-t border-gray-300 m-auto" />
 

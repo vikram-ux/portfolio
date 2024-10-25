@@ -31,12 +31,12 @@ const Contact = () => {
     <div>
       {/* contacts */}
       <section className="contacts w-screen h-full bg-gray-950">
-          <h1 className="bg-gray-950 text-white text-center font-bold text-5xl">
+          <h1 className="contact-heading bg-gray-950 text-white text-center font-bold text-5xl">
             CONTACT
           </h1>
           <p
-            id="contacts"
-            className="text-white text-center bg-gray-950 w-1/2  m-auto p-9"
+            
+            className="contacts-para text-white text-center bg-gray-950 w-1/2  m-auto p-9"
           >
             Here you will find some of the personal and clients projects that I
             created with each project containing its own case study
@@ -89,12 +89,15 @@ const Contact = () => {
                 Submit
               </button>
             </div>
+
+            <div className="contact-info pb-10">
            <a href="tel:+91 9258528799"><div className="contact-type bg-slate-950 w-80 h-12 flex justify-center items-center mx-auto mb-7 rounded-md"> <i className="fa-solid fa-phone pr-2 text-lg"></i> 
             +91 9258528799
           </div></a> 
           <a href="mailto: vikramsinvk@gmail.com"><div className="contact-type bg-slate-950 w-80 h-12 flex justify-center items-center mx-auto rounded-md"> <i className="fa-solid fa-envelope text-white pr-2 text-xl"></i>
             vikramsinvk@gmail.com
           </div></a>
+          </div>
           </form>
           
         </section>
