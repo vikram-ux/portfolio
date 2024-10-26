@@ -5,6 +5,7 @@ import React from 'react'
 const Contact = () => {
 
     const onSubmit = async (event) => {
+      alert("form submitted")
         event.preventDefault();
         const formData = new FormData(event.target);
     
@@ -87,14 +88,14 @@ const Contact = () => {
 
             <div className="button text-center">
               <button type='submit'
-                className="bg-gray-300 text-black text-xl p-4 pb-4 pl-8 pr-8 font-bold border-none rounded-full mt-6 mb-7 shadow-2xl hover:bg-purple-700 hover:text-white duration-300 w-4/5"
+                className="bg-gray-300 text-black text-xl p-4 pb-4 pl-8 pr-8 font-bold border-none rounded-full mt-6 mb-7 shadow-2xl hover:bg-purple-700 hover:text-white duration-300 w-4/5 active:scale-95"
               >
                 Submit
               </button>
             </div>
 
             <div className="contact-info pb-10">
-           <a href="tel:+91 9258528799"><div className="contact-type bg-slate-950 w-80 h-12 flex justify-center items-center mx-auto mb-7 rounded-md"> <i className="fa-solid fa-phone pr-2 text-lg"></i> 
+           <a href="tel:+91 9258528799"><div className="contact-type bg-slate-950 w-80 h-12 flex justify-center items-center mx-auto mb-7 rounded-md "> <i className="fa-solid fa-phone pr-2 text-lg"></i> 
             +91 9258528799
           </div></a> 
           <a href="mailto: vikramsinvk@gmail.com"><div className="contact-type bg-slate-950 w-80 h-12 flex justify-center items-center mx-auto rounded-md"> <i className="fa-solid fa-envelope text-white pr-2 text-xl"></i>

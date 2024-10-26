@@ -12,11 +12,11 @@ function App() {
           <div className="leftsection justify-center text-3xl text-center m-11">
             Hello, My name is {""}
             <span className="purple text-purple-400">Vikram</span>
-            <div>and I am a pasionate Web developer</div>
+            <div>and I am a passionate Web developer</div>
             <a href="#projects">
               <button
                 id="#projects"
-                className="bg-black text-white text-xl p-1 pb-2 pl-8 pr-8 font-bold border-2 rounded-3xl mt-6 mb-1 shadow-2xl hover:bg-white hover:text-black duration-300"
+                className="bg-black text-white text-xl p-1 pb-2 pl-8 pr-8 font-bold border-2 rounded-3xl mt-6 mb-1 shadow-2xl hover:bg-white hover:text-black duration-300 active:scale-95"
               >
                 projects
               </button>
@@ -77,12 +77,14 @@ function App() {
               </p>
 
               <div className="button">
+                <a href="#contact">
                 <button
                   id="#projects-button"
                   className="bg-black text-white text-xl p-1 pb-2 pl-8 pr-8 font-bold border-2 rounded-3xl mt-6 mb-24 shadow-2xl hover:bg-white hover:text-black duration-300 "
                 >
                   Contact
                 </button>
+                </a>
               </div>
             </div>
 
@@ -144,12 +146,12 @@ function App() {
 
           <div className="projects-img-section bg-gray-950-400 w-full flex flex-wrap justify-between">
             <div className="projects-left text-white w-2/5 mt-20">
-              <div className="left-image w-4/5 h-2/3 bg-gray-950 relative mt-10 border border-gray-600 rounded-md m-auto  transition-transform duration-500 hover:scale-105 ">
+              <div className="left-image w-4/5 h-4/5 bg-gray-950 relative mt-10 border border-gray-600 rounded-md m-auto  transition-transform duration-500 hover:scale-105">
                 {/* <img src="./public/image/laptop.png" alt="" /> */}
                 <img
                   src="./public/image/portfolio.png"
                   alt=""
-                  className=" w-80 h-52 m-auto mt-7  transition-transform duration-500 transform hover:scale-110 "
+                  className="w-80 h-48 m-auto mt-5 transition-transform duration-500 transform hover:scale-110"
                 />
               </div>
             </div>
@@ -180,12 +182,12 @@ function App() {
 
           <div className="projects-img-section bg-gray-950-400 w-full flex flex-wrap justify-between">
             <div className="projects-left text-white w-2/5 mt-20">
-              <div className="left-image w-4/5 h-2/3 bg-gray-950 relative mt-10 border border-gray-600 rounded-md m-auto  transition-transform duration-500 hover:scale-105">
+            <div className="left-image w-4/5 h-4/5 bg-gray-950 relative mt-10 border border-gray-600 rounded-md m-auto  transition-transform duration-500 hover:scale-105">
                 {/* <img src="./public/image/laptop.png" alt="" /> */}
                 <img
-                  src="./public/image/portfolio.png"
+                  src="./public/image/TicTacToe.png"
                   alt=""
-                  className="w-80 h-52 m-auto mt-7  transition-transform duration-500 transform hover:scale-110"
+                  className="w-80 h-52 m-auto mt-5  transition-transform duration-500 transform hover:scale-110"
                 />
               </div>
             </div>
@@ -216,12 +218,12 @@ function App() {
 
           <div className="projects-img-section bg-gray-950-400 w-full flex flex-wrap justify-between">
             <div className="projects-left text-white w-2/5 mt-20">
-              <div className="left-image w-4/5 h-2/3 bg-gray-950 relative mt-10 border border-gray-600 rounded-md m-auto  transition-transform duration-500 hover:scale-105">
+              <div className="left-image3 w-4/5 h-2/3 bg-gray-950 relative mt-10 border border-gray-600 rounded-md m-auto  transition-transform duration-500 hover:scale-105">
                 {/* <img src="./public/image/laptop.png" alt="" /> */}
                 <img
-                  src="./public/image/portfolio.png"
+                  src="./public/image/AmazonClone.png"
                   alt=""
-                  className="w-80 h-52 m-auto mt-7  transition-transform duration-500 transform hover:scale-110"
+                  className=" w-80 h-52 m-auto mt-7  transition-transform duration-500 transform hover:scale-110"
                 />
               </div>
             </div>

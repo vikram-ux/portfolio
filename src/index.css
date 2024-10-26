@@ -31,14 +31,15 @@
     }
 
     nav .responsive_nav {
+        margin-top: -24px;
         transform: none;
 
     }
 
     nav .ul-close-btn {
         position: absolute;
-        top: 0.5rem;
-        right: 1.7rem;
+        top: 2rem;
+        right: 2rem;
     }
 }
 
