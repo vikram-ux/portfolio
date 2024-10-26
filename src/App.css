@@ -38,6 +38,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: red;
 
 
     }
@@ -58,24 +59,21 @@ body {
     }
 
     .aboutskills-section {
-        /* background-color: blue; */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        background-color: blue;
         width: 100%;
-        height: 100%;
+        text-align: start;
     }
-
-    .aboutskills-section {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-
-    }
-
+    
+    
+    
     .aboutskills-section .left-section {
-        width: 100%;
+        width: 1000px;
+        height: 100%;
+        /* background-color: red; */
+        text-align: start;
+        margin-left: -130px;
+        
+        
     }
 
 
@@ -104,9 +102,11 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 20px;
+
     }
 
-    .right-section .skills-heading{
+    .right-section .skills-heading {
         width: 350px;
         text-align: start;
     }
@@ -116,7 +116,7 @@ body {
         width: 350px;
         height: 200px;
         font-size: 14px;
-    
+
     }
 
 
@@ -150,7 +150,8 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+        margin-bottom: 0px;
+
 
 
     }
@@ -163,6 +164,9 @@ body {
         height: 100%;
         flex-direction: column;
         align-items: center;
+        gap: 50px;
+        margin-top: -30px;
+        margin-bottom:100px;
 
     }
 
@@ -173,10 +177,18 @@ body {
     }
 
 
+     .projects-left .left-image{
+            /* background-color: red; */
+            margin-top: 0px;
+     }
+
+
 
     .projects-img-section .projects-right {
         width: 100%;
         height: 200px;
+        /* margin-top: 50px; */
+        margin-top: -10px;
 
     }
 
@@ -186,10 +198,10 @@ body {
         width: 100%;
         height: 100%;
         background-color: red;
-        padding-bottom: 200px;
-        
-
-    }
+        /* padding-bottom: 200px; */
+        margin-bottom: 40px;
+           
+}
 
 
     .projects-left,
@@ -200,7 +212,7 @@ body {
 
 
 
- 
+
 }
 
 /* Tablet Styles */

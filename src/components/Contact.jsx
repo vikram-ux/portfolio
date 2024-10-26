@@ -28,12 +28,15 @@ const Contact = () => {
       };
 
   return (
-    <div>
+    <>
       {/* contacts */}
       <section className="contacts w-screen h-full bg-gray-950">
-          <h1 className="contact-heading bg-gray-950 text-white text-center font-bold text-5xl">
+          <h1 className="contact-heading bg-gray-950 text-white text-center font-bold text-5xl pt-24">
             CONTACT
           </h1>
+          <div className="border-2 border-gray-100 m-auto mt-7 w-9 font-extrabold rounded-full" ></div>
+
+        
           <p
             
             className="contacts-para text-white text-center bg-gray-950 w-1/2  m-auto p-9"
@@ -101,7 +104,7 @@ const Contact = () => {
           </form>
           
         </section>
-    </div>
+    </>
   )
 }
 
