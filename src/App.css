@@ -166,36 +166,41 @@ body {
 
 
     .projects-img-section .projects-left {
-        padding-bottom: -20px;
+        padding-bottom: -10px;
         width: 450px;
         height: 320px;
         margin: auto;
         text-align: start;
         margin-bottom: 60px;
+     
 
 
     }
 
 
     .projects-left .left-image {
-        padding: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
+         margin: 4rem;
+         width: 70%;
+         height: 75%;
+         
+        }
+        
     .projects-left .left-image img {
         margin-top: 15px;
         text-align: center;
         padding-top: 10px;
-
-
+        width: 90%;
+        
+        
+    }
+    
+    .projects-left .left-image3 {
+        width: 70%;
+        height: 270px;
     }
 
-    .projects-left .left-image3 {
-
-        height: 270px;
+    .projects-left .left-image3 img{
+         width: 90%;
     }
 
 
